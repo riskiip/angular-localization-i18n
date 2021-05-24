@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "73e9ff69-ef21-413c-8f95-8dec88c26372"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -16,6 +19,14 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "id": "src/locale/message.en-id.xlf",
+          "ar": "src/locale/message.en-ar.xlf",
+          "de": "src/locale/message.en-de.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -25,6 +36,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "localize": ["de"],
             "aot": true,
             "assets": [
               "src/favicon.ico",

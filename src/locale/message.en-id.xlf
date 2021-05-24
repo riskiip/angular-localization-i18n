@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="178730022720831809" datatype="html">
+        <source><x id="START_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;h1&gt;"/>Hi Everyone<x id="CLOSE_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;/h1&gt;"/></source>
+        <target>Halo Semuanya</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="meaning">site header</note>
+      </trans-unit>
+      <trans-unit id="5994397372980302694" datatype="html">
+        <source>My name is Rizki</source>
+        <target>Nama saya Rizki</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">An introduction of the developer</note>
+        <note priority="1" from="meaning">introduction</note>
+      </trans-unit>
+      <trans-unit id="6500949543707368829" datatype="html">
+        <source>I&apos;m from Indonesia</source>
+        <target>Saya berasal dari Indonesia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">A place that i live</note>
+        <note priority="1" from="meaning">place i live</note>
+      </trans-unit>
+      <trans-unit id="4025506322236219629" datatype="html">
+        <source>My hobby is playing basketball</source>
+        <target>Hobi saya bermain bola basket</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">My hobby to share with</note>
+        <note priority="1" from="meaning">hobby</note>
+      </trans-unit>
+      <trans-unit id="7519499965853450343" datatype="html">
+        <source>Do you wanna know more about me?</source>
+        <target>Mau tau lebih banyak tentang saya?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Asking if you want to know more about me</note>
+        <note priority="1" from="meaning">question1</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
